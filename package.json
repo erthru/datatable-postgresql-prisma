@@ -1,0 +1,24 @@
+{
+  "name": "datatable-postgresql-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "erthru",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@prisma/client": "^4.12.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.12.0"
+  },
+  "prisma": {
+    "schema": "db.prisma",
+    "migrateOutput" : "migrations"
+  }
+}
